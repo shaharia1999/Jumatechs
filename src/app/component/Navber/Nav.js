@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import logo from '@/app/component/Image/logo.png'
 import { AiOutlineArrowDown ,AiOutlineArrowUp } from "react-icons/ai";
+import { FiArrowUpRight } from "react-icons/fi";
 
 
 const Nav = () => {
@@ -23,7 +24,7 @@ const Nav = () => {
                     <li className='flex justify-center gap-x-2'>Service 
                         <span className='  bg-black rounded-full h-8 p-2 block'><AiOutlineArrowDown className='text-white ' /></span></li>
                     <li className='flex justify-center gap-x-2'><span className='text-white rounded-3xl px-3 py-1 bg-[#1C59FF]'>LET'S TALK </span>
-                    <span className='rounded-full h-8 p-2 block bg-[#1C59FF]'><AiOutlineArrowUp className='text-white'/>
+                    <span className='rounded-full h-8 p-2 block bg-[#1C59FF]'><FiArrowUpRight className='text-white'/>
                       </span>
                     </li>
                 </ul>
