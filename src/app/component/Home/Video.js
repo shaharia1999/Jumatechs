@@ -11,7 +11,8 @@ import { GoCheckCircle } from "react-icons/go";
 
 const Video = () => {
     return (
-        <div className='col-span-5 bg-white mt-5 rounded-3xl h-auto px-5 py-2 shadow-md'>
+        <div className='col-span-5'>
+            <div className=' bg-white mt-5 rounded-3xl h-auto px-5 py-2 shadow-md'>
         <div className='relative'>
         <Image
         height={800}
@@ -64,6 +65,7 @@ const Video = () => {
             <li className='flex gap-x-2 mt-1 items-center'><GoCheckCircle />2 live classes on the freelancing marketplace</li>
         </ul>
         <p className='text-center text-red-400 mt-5'>Whatsapp Call : +8801789329671 <span className='text-black font-semibold'>(anytime)</span>  </p>
+        </div>
     </div>
     );
 };
