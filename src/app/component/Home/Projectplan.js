@@ -4,6 +4,9 @@ import { Accordion } from "flowbite-react";
 import Saller from '@/app/component/Image/best_seller.png'
 import Saller2 from '@/app/component/Image/best_s.png'
 import dumy from '@/app/component/Image/dumy.png'
+import eComarce from '@/app/component/Image/rec1.png'
+import blog from '@/app/component/Image/rec2.png'
+// import dumy from '@/app/component/Image/dumy.png'
 import Image from 'next/image';
 
 const Projectplan = () => {
@@ -137,10 +140,10 @@ const Projectplan = () => {
     
                    </div>
             
-
-            <div className='shadow-md '>
+    {/* Specialist */}
+            <div className='shadow-md px-6 py-4 '>
             <h3 className='text-[28px] font-semibold mt-10'>Specialist</h3>
-            <div className='bg-[#E3EBFF] border-s-4 border-blue-600 rounded-2xl px-6 py-4 mt-4'>
+            <div className='bg-[#E3EBFF] border-s-4 border-blue-600 rounded-2xl  mt-4'>
              <div>
                 <div className='flex items-center gap-x-3 text-[16px] font-medium p-5'><Image src={Saller} height={20} width={20}></Image>
                 Lead Instructor</div>
@@ -172,8 +175,46 @@ const Projectplan = () => {
 
              </div>
              </div>
-
             </div>
+
+            {/* About  */}
+            <div className='shadow-md px-6 py-4 hover:border-blue-400 hover:border-4 border-4 border-white'>
+            <h3 className='text-[28px] font-semibold mt-10  '>About the Growth Package</h3>
+            <p className='text-[#667085] py-3'>Mineral Reserves: 2008 core drilling and testing (on just 60 of the 1,100 acres) proved 30-60 million tons of high-grade calcium carbonate. Other reports show high-grade calcium carbonate throughout remainder of the property. Geological reports available.</p>
+
+             <div className='bg-[#E3E9F4]'>
+                 <div className='flex  items-center gap-x-3 py-10 px-5'>
+                    <p className='text-[16px] font-semibold'>Few Design we have done for client</p>
+                    <p className='bg-[#98A2B3] h-[2px] w-[50%]'></p>
+                 </div>
+                 {/* Parents Div */}
+                 <div className='flex justify-between gap-x-4 py-4 px-5'>
+                    <div className='bg-[#1D2939] px-5 py-4 rounded-md'>
+                      <p className='text-white font-medium py-4'>E-commerce Project</p>
+                      <Image Image src={blog} height={300} width={300}></Image>
+
+                    </div>
+                    <div className='bg-[#1D2939] px-5 py-4 rounded-md'>
+                      <p className='text-white font-medium py-4'>Blog</p>
+                      <Image Image src={eComarce} height={300} width={300}></Image>
+
+                    </div>
+                    
+                 </div>
+
+             </div>
+            </div>
+            <div className='shadow-md px-6 py-6 mt-4 hover:border-blue-400 hover:border-4 border-4 border-white'>
+              <h3 className='text-[28px] font-semibold leading-8'>Requirements</h3>
+              <p className='text-[#667085] text-[16px] leading-6'>No prior coding knowledge is required to take the course.</p>
+               
+            </div>
+            <div className='shadow-md px-6 py-6 mt-4 hover:border-blue-400 hover:border-4 border-4 border-white'>
+              <h3 className='text-[28px] font-semibold leading-8'>Help</h3>
+              <p className='text-[#667085] text-[16px] leading-6'>For any batch information call  +8801960999918  (10 am to 10 pm)</p>
+               
+            </div>
+
      
         </div>
     );
