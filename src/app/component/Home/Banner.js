@@ -2,8 +2,7 @@ import React from 'react';
 import { FaRegFilePdf } from "react-icons/fa6";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
-import team from '@/app/component/Image/team.png'
-import Image from 'next/image';
+import Video from './Video';
 
 const Banner = () => {
     return (
@@ -11,7 +10,7 @@ const Banner = () => {
             <dv className='bg-[#EEF2F5]  h-[90vh] w-[100%] absolute top-0 left-0'></dv>
             <div className=' relative '>
             <div className='grid grid-cols-12 container mx-auto gap-x-5'>
-                    <div className='col-span-8  py-5'>
+                    <div className='col-span-7  py-5'>
                         <h1 className='text-[40px] font-semibold'>Realtor Deal closer Package by Jumatechs</h1>
                         <p className='text-[16px] text-[#98A2B3] py-5'>Mineral Reserves: 2008 core drilling and testing (on just 60 of the 1,100 acres) proved 30-60 million tons of high-grade calcium carbonate. Other reports show high-grade calcium carbonate throughout remainder of the property. Geological reports available.</p>
                         <ul className='mt-5'>
@@ -61,18 +60,8 @@ const Banner = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-span-4 bg-white mt-5 rounded-3xl h-auto px-3 py-1'>
-                        <div>
-                        <Image
-                        height={800}
-                        width={800}
-                            src={team}
-                        />
-                        </div>
-                      
-                      
-                        
-                    </div>
+                    {/* Video Part */}
+                    <Video/>
                 </div>
             </div>
             
