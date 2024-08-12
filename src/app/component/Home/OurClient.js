@@ -5,6 +5,8 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import dumy from '@/app/component/Image/dumy.png'
 import Image from 'next/image';
 import { VscArrowCircleRight, VscArrowCircleLeft } from "react-icons/vsc";
+import { SlArrowRight,SlArrowLeft  } from "react-icons/sl";
+
 
 
 const OurClient = () => {
@@ -45,9 +47,11 @@ const OurClient = () => {
                         </div>
 
                     </div>
-                    <div className='flex justify-center items-center gap-x-2 mt-4'>
-                        <VscArrowCircleLeft className='text-2xl' />
-                        <VscArrowCircleRight className='text-2xl' />
+                    <div className='flex justify-center items-center gap-x-3 mt-4'>
+                        <span className='p-1 rounded-full border-2 border-black'><SlArrowLeft  VscArrowCircleRight className='text-1xl'  /></span>
+                        <span className='p-1 rounded-full border-2 border-black'><SlArrowRight VscArrowCircleRight className='text-1xl'  /></span>
+                        
+
                     </div>
 
                 </div>

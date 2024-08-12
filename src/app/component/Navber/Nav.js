@@ -8,7 +8,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Nav = () => {
     return (
-        <div className='flex justify-between pt-8 container mx-auto '>
+        <div className='flex  justify-between pt-8 container mx-auto '>
             <div>
                 <ul className='flex gap-x-12  items-center text-[18px]  '>
                     <li> <Image src={logo} width={54} height={54} /></li>

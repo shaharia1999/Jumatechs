@@ -7,14 +7,14 @@ import Projectplan from './Projectplan';
 
 const Banner = () => {
     return (
-        <div className=' mt-4 h-auto relative '>
-            <dv className='bg-[#EEF2F5]  h-[90vh] w-[100%] absolute top-0 left-0'></dv>
+        <div className=' mt-5 h-auto relative '>
+            <dv className='bg-[#EEF2F5]  h-[549px] w-[100%] absolute top-0 left-0'></dv>
             <div className=' relative '>
-                <div className='grid grid-cols-12 container mx-auto gap-x-5'>
+                <div className='grid grid-cols-12 container mx-auto gap-x-5 pt-8'>
                     <div className='col-span-7  py-5'>
                         <h1 className='text-[40px] font-semibold'>Realtor Deal closer Package by Jumatechs</h1>
                         <p className='text-[16px] text-[#98A2B3] py-5'>Mineral Reserves: 2008 core drilling and testing (on just 60 of the 1,100 acres) proved 30-60 million tons of high-grade calcium carbonate. Other reports show high-grade calcium carbonate throughout remainder of the property. Geological reports available.</p>
-                        <ul className='mt-5'>
+                        <ul className='mt-16'>
                             <li className='flex justify-between bg-white rounded-lg h-[88px] items-center px-2'>
                                 <div className='flex items-center gap-x-3'>
                                     <div><FaRegFilePdf className='text-blue-500 text-3xl' /></div>
