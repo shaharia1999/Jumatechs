@@ -193,7 +193,7 @@ const Projectplan = () => {
       </div>
 
       {/* About  */}
-      <div className='shadow-md px-6 py-4 hover:border-blue-400 hover:border-4 border-4 border-white'>
+      <div className='shadow-md px-6 py-4 hover:border-blue-400 hover:border-4 border-4 border-white mt-5'>
         <h3 className='text-[28px] font-semibold mt-10  '>About the Growth Package</h3>
         <p className='text-[#667085] py-3'>Mineral Reserves: 2008 core drilling and testing (on just 60 of the 1,100 acres) proved 30-60 million tons of high-grade calcium carbonate. Other reports show high-grade calcium carbonate throughout remainder of the property. Geological reports available.</p>
 
